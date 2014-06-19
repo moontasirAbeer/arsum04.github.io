@@ -289,8 +289,17 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-					<?php if (!isset($_POST["submit"])) { ?>
-					<form class="form-group col-xs-12 floating-label-form-group" method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
+					<?php 
+						$name = $_POST['name'];
+						$email = $_POST['email'];
+						$message = $_POST['message'];
+						$from = 'From: Team Isometric';
+						$to = 'arsumiqbal04@gmail.com';
+						$subject = 'Questions';
+						
+						$body = "From: $name\n E-Mail: $email\n Message:\n $message";
+					?>
+					<form class="form-group col-xs-12 floating-label-form-group" method="post" action="index.php">
 						<div class="row">
 							<div class="from-group col-xs-12 floating-label-form-group">
 								<label for="name">Name</label>
@@ -315,44 +324,15 @@
 							</div>
 						</div>
 					</form>
-					<?php } else { //the user has submitted the form. Check if the "name" input field is filled out
-						if (isset($_POST["name"])) {
-						$name = $_POST["name"]; // sender
-						$email = $_POST["email"];
-						$message = $_POST["message"];
-						// message lines should not exceed 70 characters(php rule), so need to wrap
-						$message = wordwrap($message, 70);
-						// send mail
-						mail("arsumiqbal04@gmail.com",$email,$message,"From: $name\n");
-						echo "Thank you for sending us feedback";
+					<?php 
+						if($_POST['submit']) {
+							if (mail ($to, $subject, $body, $from)) {
+								echo '<p>Your message has been sent!</p>';
+							} else {
+								echo '<p>Something went wrong, go back and try again!</p>'
+							}							
 						}
-					}?>
-                    <!--<form role="form">
-                        <div class="row">
-                            <div class="form-group col-xs-12 floating-label-form-group">
-                                <label for="name">Name</label>
-                                <input class="form-control" type="text" name="name" placeholder="Name">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="form-group col-xs-12 floating-label-form-group">
-                                <label for="email">Email Address</label>
-                                <input class="form-control" type="email" name="email" placeholder="Email Address">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="form-group col-xs-12 floating-label-form-group">
-                                <label for="message">Message</label>
-                                <textarea placeholder="Message" class="form-control" rows="5"></textarea>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="row">
-                            <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-lg btn-success">Send</button>
-                            </div>
-                        </div>
-                    </form>-->
+					?>
                 </div>
             </div>
         </div>
