@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Freelancer - A Free Start Bootstrap Theme</title>
+    <title>Project Trucker</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -39,7 +39,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand" href="#page-top">Project Trucker</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -70,9 +70,9 @@
                 <div class="col-lg-12">
                     <img class="img-responsive" src="img/profile.png" alt="">
                     <div class="intro-text">
-                        <span class="name">Start Bootstrap</span>
+                        <span class="name">Project Trucker</span>
                         <hr class="star-light">
-                        <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                        <span class="skills">&copy Mohsin - Yerang - Ming &copy</span>
                     </div>
                 </div>
             </div>
@@ -88,7 +88,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -98,7 +98,7 @@
                         <img src="img/portfolio/moss0.jpg" class="img-responsive" alt="" />
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -108,7 +108,7 @@
                         <img src="img/portfolio/moss1.jpg" class="img-responsive" alt="" />
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -118,7 +118,7 @@
                         <img src="img/portfolio/moss2.jpg" class="img-responsive" alt="" />
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -128,7 +128,7 @@
                         <img src="img/portfolio/yang0.jpg" class="img-responsive" alt="" />
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -138,7 +138,7 @@
                         <img src="img/portfolio/yang1.jpg" class="img-responsive" alt="" />
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -148,7 +148,7 @@
                         <img src="img/portfolio/yang2.jpg" class="img-responsive" alt="" />
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -159,7 +159,7 @@
                     </a>
                 </div>
 
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -169,7 +169,7 @@
                         <img src="img/portfolio/yang4.jpg" class="img-responsive" alt="" />
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -180,7 +180,7 @@
                     </a>
                 </div>
 
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal10" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -190,7 +190,7 @@
                         <img src="img/portfolio/official cart.jpg" class="img-responsive" alt="" />
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal11" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -200,7 +200,7 @@
                         <img src="img/portfolio/Final mini truck.jpg" class="img-responsive" alt="" />
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal12" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -210,7 +210,7 @@
                         <img src="img/portfolio/FINAL ASSEMBLY FILE 1.jpg" class="img-responsive" alt="" />
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal13" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -220,7 +220,7 @@
                         <img src="img/portfolio/official drawing template_part_b.jpg" class="img-responsive" alt="" />
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal14" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -230,7 +230,7 @@
                         <img src="img/portfolio/mini truck drawining template_part_c.jpg" class="img-responsive" alt="" />
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal15" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -240,7 +240,7 @@
                         <img src="img/portfolio/Final drawing template.jpg" class="img-responsive" alt="" />
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal16" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -289,7 +289,45 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <form role="form">
+					<?php if (!isset($_POST["submit"])) { ?>
+					<form class="form-group col-xs-12 floating-label-form-group" method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
+						<div class="row">
+							<div class="from-group col-xs-12 floating-label-form-group">
+								<label for="name">Name</label>
+								<input class="form-control" type="text" name="name" placeholder="Name">
+							</div>
+						</div>
+						<div class="row">
+							<div class="from-group col-xs-12 floating-label-form-group">
+								<label for="email">Email Address</label>
+								<input class="form-control" type="email" name="email" placeholder="Email Address">
+							</div>
+						</div>
+						<div class="row">
+							<div class="form-group col-xs-12 floating-label-form-group">
+								<label for="message">Message</label>
+								<textarea name="message" placeholder="Message" class="form-control" rows="5"></textarea>
+							</div>
+						</div>
+						<div class="row">
+							<div class="form-group col-xs-12">
+								<button type="submit" class="btn btn-lg btn-success">Send</button>
+							</div>
+						</div>
+					</form>
+					<?php } else { //the user has submitted the form. Check if the "name" input field is filled out
+						if (isset($_POST["name"])) {
+						$name = $_POST["name"]; // sender
+						$email = $_POST["email"];
+						$message = $_POST["message"];
+						// message lines should not exceed 70 characters(php rule), so need to wrap
+						$message = wordwrap($message, 70);
+						// send mail
+						mail("arsumiqbal04@gmail.com",$email,$message,"From: $name\n");
+						echo "Thank you for sending us feedback";
+						}
+					}?>
+                    <!--<form role="form">
                         <div class="row">
                             <div class="form-group col-xs-12 floating-label-form-group">
                                 <label for="name">Name</label>
@@ -314,7 +352,7 @@
                                 <button type="submit" class="btn btn-lg btn-success">Send</button>
                             </div>
                         </div>
-                    </form>
+                    </form>-->
                 </div>
             </div>
         </div>
